@@ -4,7 +4,7 @@
 # CongressData: A Functional Tool for the CongressData Dataset<img src="figures/CongressData.png" height="150" align="right"/>
 
 `CongressData` is a package designed to allow a user with only basic
-knowledge of R interact with **CongressData**, a dataset with nearly 800
+knowledge of R interact with **CongressData**, a dataset with over 1000
 variables that compiles information about all US congressional districts
 across 1789-2023, and its codebook. The dataset tracks district
 characteristics, members of congress, and the behavior of those members
@@ -44,8 +44,8 @@ names with `var_names`.
 suppressMessages(library(dplyr))
 library(CongressData)
 #> Please cite:
-#> Grossmann, M., Lucas, C., McCrain, J, & Ostrander, I. (2022). CongressData.
-#> East Lansing, MI: Institute for Public Policy and Social Research (IPPSR).
+#> Grossmann, Matt, Caleb Lucas, and Benjamin Yoel. Introducing CongressData and Correlates of State Policy
+#> East Lansing, MI: Institute for Public Policy and Social Research (IPPSR), 2024.
 #> 
 #> Run `CongressData::get_congress_version()` to print the version of CongressData the package is using.
 ```
@@ -118,7 +118,7 @@ available in `CongressData`.
 ``` r
 
 CongressData::get_congress_version()
-#> You are using CongressData version: 1.1
+#> You are using CongressData version: 2
 ```
 
 ## Pulling Citations
@@ -151,12 +151,11 @@ get_var_info(var_names = "percent_bus") %>%
 ## Dataset and Package Citation
 
 In addition to citing each variable’s source, we ask that you cite
-CongressData if use this package or the dataset. A recommended citation
-is below.
+CongressData if use this package or the dataset:
 
-> Grossmann, M., Lucas, C., McCrain, J, & Ostrander, I. (2022).
-> CongressData. East Lansing, MI: Institute for Public Policy and Social
-> Research (IPPSR)
+> Grossmann, Matt, Caleb Lucas, and Benjamin Yoel. Introducing
+> CongressData and Correlates of State Policy. East Lansing, MI:
+> Institute for Public Policy and Social Research (IPPSR), 2024.
 
 ## Contact
 

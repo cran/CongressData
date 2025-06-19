@@ -1,11 +1,11 @@
-325ad1af9f4d75bc39d3708d5291c5e4 *DESCRIPTION
+8b00faf4072d30cefcedb07e9752cd3c *DESCRIPTION
 76f8941c1edfb7490f3f9fca5d6d2ab3 *NAMESPACE
-677ee3ae8b10945bc2a80711d1574f84 *R/get_cong_data.R
-1208647de7aa711824c627799cf9a0b5 *R/get_congress_version.R
-9ff9b23a3646ed291cdabd6725583ce7 *R/get_var_info.R
+fe3d223b64dfcf4a002762dbae3d44f4 *R/get_cong_data.R
+2a9629bf89d7978e250200a0ffbe435c *R/get_congress_version.R
+b00222677f2115108246c1dd79f70b81 *R/get_var_info.R
 843965aaf055350f9f901b5aca135f11 *R/globals.R
-b99e89fc2efaa8de9189c52c947c053c *R/zzz.R
-412eae486d291487380c49a3d44dfff1 *README.md
+fc0aade21652eca873d6cdf122fabc92 *R/zzz.R
+b662e26323bcf445618fee578f241328 *README.md
 4dd573c70318b5a85f91edb087588c7b *man/get_cong_data.Rd
 680905a3d4f2d1780614aeb95a796a72 *man/get_congress_version.Rd
 5361b1f9007b7143a6eccd42c1e0ee3b *man/get_var_info.Rd

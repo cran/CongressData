@@ -1,7 +1,7 @@
 Package: CongressData
 Type: Package
 Title: A Functional Tool for 'CongressData'
-Version: 1.5.4
+Version: 1.5.5
 Authors@R: c(
     person("Caleb", "Lucas", email = "calebjlucas@gmail.com", role = c("aut", "cre")),
     person("Ben", "Yoel", role = "ctb")
@@ -14,9 +14,9 @@ RoxygenNote: 7.3.1
 Depends: R (>= 3.50)
 Imports: stringr, dplyr, rlang, fst, curl, tidyselect
 NeedsCompilation: no
-Packaged: 2024-08-29 01:12:26 UTC; caleb
+Packaged: 2025-06-19 10:00:44 UTC; caleb
 Author: Caleb Lucas [aut, cre],
   Ben Yoel [ctb]
 Maintainer: Caleb Lucas <calebjlucas@gmail.com>
 Repository: CRAN
-Date/Publication: 2024-09-03 14:40:11 UTC
+Date/Publication: 2025-06-19 10:10:02 UTC
